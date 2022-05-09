@@ -27,26 +27,26 @@
             <div class="bk3"><img src="image/background/coin.png" alt="coin de page"></div>
             <div class="bk4"><img src="image/background/coin.png" alt="coin de page"></div>
         </div>
-        <!-- <img src="image/background/book.png" alt="support livre" class="book"> -->
-        <!-- <div class="contenu">
+        <div class="contenu">
+           <!--  <img src="image/background/book.png" alt="support livre" class="book"> -->
             <div class="presentation">
                 <p id="typedtext"></p>
             </div>
-            <div class="choix">
+            <!-- <div class="choix">
                 <a href="autres_pages/regle.php">Le fils</a>
                 <a href="autres_pages/regle.php">La fille</a>
                 <a href="autres_pages/regle.php">Le cuisinier</a>
-            </div>
-        </div> -->
+            </div> -->
+        </div>
     </main>
-    <!-- <script src="js/lib.js"></script>
+    <script src="js/lib.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/menu.js"></script>
     <script>
         jQuery(document).ready(function(){
             $('.choix').hide(0).delay(19000).show(200);
         });
-    </script> -->
+    </script>
     <script src="js/menu.js"></script>
 </body>
 </html>

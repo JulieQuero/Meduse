@@ -87,6 +87,23 @@ body{
  /* Règles livre */
  
  p{
-     font-family: 'permanent_marker',Arial, Helvetica;
+    font-family: 'permanent_marker',Arial, Helvetica;
+    width: 300px;
+    margin: 0px 250px;
  }
+ .book{
+    position: absolute;
+    top: 65px;
+    left: 235px;
+    width: 70%;
+}
+.contenu{
+    background-image: url('../image/background/book.png');
+    position: relative;
+    z-index: 20;
+    top: 200px;
+}
+.presentation{
+    margin: auto;
+}
   

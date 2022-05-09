@@ -5,10 +5,10 @@ function showMenu() {
   if (menu.className === "") {
     menu.className = "open";
     icon.className = "open";
-    root.style.overflowY = "hidden";
+    menu.style.display = "none";
   } else {
     menu.className = "";                    
     icon.className = "";
-    root.style.overflowY = "block";
+    menu.style.display = "flex";
   }
 }
