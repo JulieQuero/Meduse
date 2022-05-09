@@ -1,16 +1,26 @@
 *{
     cursor: url("../image/curseur2.png"), default;
-    
+
 }
-@font-face{
-    font-family: 'permanent_marker';
-    src: url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+html,body{
+    min-height: 600px;
 }
+
+/* @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap'); */
+
+@font-face {
+    font-family: Satisfy;
+    src: url(Satisfy-Regular.ttf);
+  }
+
 body{
     margin:0;
     padding: 0px;
     background-image: url("../image/background/texture.png");
     color: white;
+}
+main{
+    min-height: 500px;
 }
 
 /*Background*/
@@ -46,21 +56,21 @@ body{
 /* Menu => Affichage */
 
 #menu{
-    width: 4%;
-    position: absolute;
+    position: relative;
     left: 48.25%;
-    top: 5%;
+    top: 15px;
     z-index: 100;
     min-width: 50px;
     min-height: 50px;
 }
 
 #menu img{
-    width: 100%;
+    max-width: 60px;
 }
 
 #topnav_menu{
     padding: 10px;
+    max-height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -69,29 +79,32 @@ body{
 
 #topnav_menu a{
     color: white;
+    font-family: cursive;
     list-style-type: none;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 /* Menu => Interactif */
-  .topnav_menu a {
+  /* #topnav_menu a {
     color: white;
     padding: 12px;
     text-decoration: none;
   }
   .topnav_menu a:hover {
     color: #0078b4;
-  }
+  } */
 
  /* Règles livre */
  
  p{
-    font-family: 'permanent_marker',Arial, Helvetica;
+    font-family: 'Satisfy', cursive;
+    font-size: 24px;
     position: relative;
-    width: 280px;
-    top: 30px;
-    left: 30px;
+    width: 340px;
+    top: 40px;
+    left: 40px;
+    color: black;
  }
  .book{
     position: absolute;
@@ -100,17 +113,36 @@ body{
     width: 70%;
 }
 .contenu{
-    width: 650px;
-    height: 355px;
+    width: 850px;
+    min-height: 500px;
     margin: auto;
-    background-image: url("../image/background/book1.png");
-    background-repeat: no-repeat;
+    background: url("../image/background/book1.png") no-repeat;
     z-index: 10;
     position: relative;
-    z-index: 20;
-    top: 100px;
+    top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,425px);
 }
-.presentation{
-    margin: auto;
+
+/* Choix page 1 */
+
+.choix{
+    position: relative;
+    width: 340px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    left: 40px;
 }
-  
+.choix a{
+    font-family: 'Satisfy', cursive;
+    font-size: 24px;
+    color: black;
+    width: 40%;
+    text-decoration: none;
+    padding:10px;
+}
+.choix a:hover{
+    color: white;
+}
