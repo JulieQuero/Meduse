@@ -1,0 +1,92 @@
+*{
+    cursor: url("../image/curseur2.png"), default;
+    
+}
+@font-face{
+    font-family: 'permanent_marker';
+    src: url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+}
+body{
+    margin:0;
+    padding: 0px;
+    background-image: url("../image/background/texture.png");
+    color: white;
+}
+
+/*Background*/
+
+.bk{
+    display: flex;
+}
+.bk1 img,.bk2 img,.bk3 img,.bk4 img{
+    position:absolute;
+    width:200px; 
+    height:200px;
+}
+.bk1 img{
+    left:10px;
+    top: 20px;
+}
+.bk2 img{
+    transform: rotate(90deg);
+    right:10px;
+    top: 20px;
+}
+.bk3 img{
+    transform: rotate(180deg);
+    right:10px;
+    bottom: 10px;
+}
+.bk4 img{
+    transform: rotate(-90deg);
+    left:10px;
+    bottom: 10px;
+}
+
+/* Menu => Affichage */
+
+#menu{
+    width: 4%;
+    position: absolute;
+    left: 48.25%;
+    top: 5%;
+    z-index: 100;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+#menu img{
+    width: 100%;
+}
+
+#topnav_menu{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#topnav_menu a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Menu => Interactif */
+  .topnav_menu a {
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+  }
+  .topnav_menu a:hover {
+    color: #0078b4;
+  }
+
+ /* Règles livre */
+ 
+ p{
+     font-family: 'permanent_marker',Arial, Helvetica;
+ }
+  
