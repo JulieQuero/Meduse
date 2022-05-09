@@ -88,8 +88,10 @@ body{
  
  p{
     font-family: 'permanent_marker',Arial, Helvetica;
-    width: 300px;
-    margin: 0px 250px;
+    position: relative;
+    width: 280px;
+    top: 30px;
+    left: 30px;
  }
  .book{
     position: absolute;
@@ -98,10 +100,15 @@ body{
     width: 70%;
 }
 .contenu{
-    background-image: url('../image/background/book.png');
+    width: 650px;
+    height: 355px;
+    margin: auto;
+    background-image: url("../image/background/book1.png");
+    background-repeat: no-repeat;
+    z-index: 10;
     position: relative;
     z-index: 20;
-    top: 200px;
+    top: 100px;
 }
 .presentation{
     margin: auto;
