@@ -41,11 +41,11 @@
     <script src="js/lib.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/menu.js"></script>
-    <!-- <script>
+    <script>
         jQuery(document).ready(function(){
             $('.choix').hide(0).delay(19000).show(200);
         });
     </script>
-    <script src="js/menu.js"></script> -->
+    <script src="js/menu.js"></script>
 </body>
 </html>
